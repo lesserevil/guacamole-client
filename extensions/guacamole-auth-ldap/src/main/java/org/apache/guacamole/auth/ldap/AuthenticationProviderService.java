@@ -43,6 +43,7 @@ import org.apache.guacamole.net.auth.AuthenticatedUser;
 import org.apache.guacamole.net.auth.Credentials;
 import org.apache.guacamole.net.auth.credentials.CredentialsInfo;
 import org.apache.guacamole.net.auth.credentials.GuacamoleInvalidCredentialsException;
+import org.apache.guacamole.token.TokenName;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
