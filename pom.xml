@@ -116,6 +116,7 @@
                         <exclude>CONTRIBUTING</exclude>
                         <exclude>**/README.md</exclude>
                         <exclude>extensions/**/*</exclude>
+                        <exclude>.vscode/**</exclude>
                     </excludes>
                 </configuration>
 
