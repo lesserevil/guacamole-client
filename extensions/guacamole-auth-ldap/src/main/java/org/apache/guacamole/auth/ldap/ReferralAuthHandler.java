@@ -19,8 +19,6 @@
 
 package org.apache.guacamole.auth.ldap;
 
-import com.novell.ldap.LDAPAuthHandler;
-import com.novell.ldap.LDAPAuthProvider;
 import java.io.UnsupportedEncodingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
