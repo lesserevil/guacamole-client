@@ -263,7 +263,7 @@ public class AuthenticationProviderService {
 
             // Convert each retrieved attribute into a corresponding token
             for (Attribute attr : attributes) {
-                tokens.put(TokenName.fromAttribute(attr.getId()), attr.getString());
+                tokens.put(TokenName.canonicalize(attr.getId()), attr.getString());
             }
 
         }
